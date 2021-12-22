@@ -1,0 +1,13 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    text-align: center;
+    .hero {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        border: 1px solid transparent;
+    }
+}
+.section-nopaddingtop {
+    padding-top: 0;
+}

@@ -1,2 +1,21 @@
-@import './header';
-@import './hero';
+@import './base/reset';
+@import './base/common';
+
+@import './utils/variables';
+@import './utils/hidden';
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/softskills';
+@import './layouts/about';
+@import './layouts/galery';
+@import './layouts/clients';
+@import './layouts/footer';
+
+@import './components/social';
+@import './components/container';
+@import './components/btn';
+@import './components/contacts';
+@import './components/logo';
+@import './components/section';
+@import './components/images';
