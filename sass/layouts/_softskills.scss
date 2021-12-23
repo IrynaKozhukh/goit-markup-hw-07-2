@@ -1,7 +1,7 @@
 .soft-title-text {
   width: 696px;
-  margin: 0 auto 30px;
-  padding: 0;
+  @include margin(0, auto, 30px);
+  @include padding(0, 0, 0, 0);
   color: var(--hero-color);
   font-weight: 900;
   font-size: 44px;

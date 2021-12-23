@@ -16,3 +16,19 @@
     text-align: center;
     letter-spacing: 0.03em;
 }
+%btn {
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    align-items: center;
+    line-height: 1.87;
+    font-weight: 700;
+    color: var(--third-text-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+%btn-min {
+    font-family: inherit;
+    font-size: 16px;
+    border: none;
+}

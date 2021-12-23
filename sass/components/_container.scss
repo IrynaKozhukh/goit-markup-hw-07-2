@@ -1,7 +1,7 @@
 .container {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
+  width: 1600px;
+  @include padding(0px, 15px, 0px, 15px);
+  @include margin(0px, auto, 0px, auto)
   .header-navigation {
     min-height: 80px;
     & > & {
@@ -16,7 +16,7 @@
     display: flex;
   }
   & > .link.logo {
-    padding: 0;
-    margin: 0 0 20px 0;
+    @include padding(0px, 0px, 0px, 0px);
+    @include margin(0px, 0px, 20px, 0px);
   }
 }

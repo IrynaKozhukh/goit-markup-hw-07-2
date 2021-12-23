@@ -15,7 +15,7 @@
   border-radius: 0px 0px 4px 4px;
 }
 .galery-text {
-  margin: 0 0 10px 0;
+  @include margin(0, 0, 10px, 0);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -30,7 +30,7 @@
   margin-bottom: 16px;
 }
 .galery-title {
-  margin: 0 0 50px 0;
+  @include margin(0, 0, 50px, 0);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
