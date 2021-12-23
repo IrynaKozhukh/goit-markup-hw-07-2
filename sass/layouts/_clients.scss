@@ -19,9 +19,8 @@
   color: var(--second-title-color);
 }
 .clients-item {
-  display: flex;
   justify-content: center;
-  align-items: center;
+  @extend %align-list;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;

@@ -6,10 +6,7 @@
   color: var(--accent-color);
 }
 .header-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @extend %font-min;
   color: var(--first-text-color);
   transition: color var(--duration) linear;
   position: relative;
@@ -29,10 +26,7 @@
   }
 }
 .header-link-style {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @extend %font-min;
   color: var(--second-text-color);
 }
 .current {
@@ -40,13 +34,11 @@
 }
 .header-navigation,
 .header-list {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   flex-wrap: wrap;
 }
 .header-item > .link {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   padding-top: 32px;
   padding-bottom: 32px;
 }
