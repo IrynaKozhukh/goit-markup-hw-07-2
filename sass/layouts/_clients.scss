@@ -1,11 +1,13 @@
 
 .clients {
   display: flex;
-  justify-content: center;
 }
 .clients__list {
   margin-right: 30px;
   & + & {
+    margin-right: 30px;
+  }
+  & > &:not(:last-child) {
     margin-right: 30px;
   }
 }
