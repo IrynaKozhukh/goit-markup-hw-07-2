@@ -2,10 +2,10 @@
 .header {
   border-bottom: 1px solid #ececec;
 }
-.header-logo {
+.header__logo {
   color: var(--accent-color);
 }
-.header-link {
+.header__link {
   @extend %font-min;
   color: var(--first-text-color);
   transition: color var(--duration) linear;
@@ -25,24 +25,24 @@
     color: var(--accent-color);
   }
 }
-.header-link-style {
+.header__link-style {
   @extend %font-min;
   color: var(--second-text-color);
 }
 .current {
   color: var(--accent-color);
 }
-.header-navigation,
-.header-list {
+.header__navigation,
+.header__list {
   @extend %align-list;
   flex-wrap: wrap;
 }
-.header-item > .link {
+.header__item > .link {
   @extend %align-list;
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.header-list > .header-item:not(:last-child) {
+.header__list > .header__item:not(:last-child) {
   margin-right: 50px;
 }
 .envelope, .smartphone {

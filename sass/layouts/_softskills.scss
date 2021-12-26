@@ -1,4 +1,4 @@
-.soft-title-text {
+.softskills__title-text {
   width: 696px;
   @include margin(0, auto, 30px);
   @include padding(0, 0, 0, 0);
@@ -9,28 +9,28 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.soft-title {
+.softskills__title {
   @extend %font;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-title-color);
 }
-.soft-after-title {
+.softskills__after-title {
   @extend %font;
   line-height: 1.71;
   color: var(--second-text-color);
 }
-.soft-list {
+.softskills__list {
   @extend %align-list;
   text-align: left;
 }
-.soft-list > .item {
-  width: 270px;
-}
-.soft-list > .soft-pre-title:not(:last-child) {
+
+.softskills__list > .softskills__pre-title:not(:last-child) {
   margin-right: 30px;
 }
-
+.softskills__list > .item {
+  width: 270px;
+}
 .items {
   text-align: center;
   & > .header-item:not(:last-child) {
@@ -44,7 +44,7 @@
   }
 }
 
-.soft-link {
+.softskills__link {
   @extend %align-list;
   justify-content: center;
   width: 270px;

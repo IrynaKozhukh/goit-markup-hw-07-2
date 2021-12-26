@@ -1,22 +1,22 @@
 .container {
   width: 1600px;
-  @include padding(0px, 15px, 0px, 15px);
-  @include margin(0px, auto, 0px, auto)
-  .header-navigation {
+  padding: 0 15px;
+  margin: 0 auto;
+  .header__navigation {
     min-height: 80px;
     & > & {
       margin-right: auto;
     }
   }
-  & > .hero-btn {
+  & > .hero__btn {
     margin: inherit;
   }
 
-  & > .footer-btn{
+  & > .footer__btn {
     display: flex;
   }
   & > .link.logo {
-    @include padding(0px, 0px, 0px, 0px);
-    @include margin(0px, 0px, 20px, 0px);
+    padding: 0;
+    margin: 0 0 20px 0;
   }
 }

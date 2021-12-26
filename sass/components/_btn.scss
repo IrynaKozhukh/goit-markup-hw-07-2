@@ -1,4 +1,4 @@
-.hero-btn {
+.hero__btn {
   @extend %btn;
   @extend %btn-min;
   @include padding(10px, 32px, 10px, 32px);
@@ -9,7 +9,7 @@
     color: var(--links-color);
   }
 }
-.footer-btn {
+.footer__btn {
   @extend %btn;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
@@ -31,7 +31,29 @@
   line-height: 1.62;
   box-shadow: none;
 }
-.modal-btn {
+.portfolio__btn {
+    cursor: pointer;
+    min-height: 38px;
+    font-weight: 500;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 16px;
+    line-height: 1.62;
+    @extend align-spacing;
+    @extend align-list;
+    border: none;
+    padding-right: 22px;
+    padding-left: 22px;
+    border-radius: 4px;
+    background: var(--galery-color);
+    transition: color var(--duration) linear, background-color var(--duration) linear, box-shadow var(--duration) linear;
+    &:active,
+    &:hover,
+    &:focus {
+        @extend %bgc-shadow;
+    }
+}
+.modal__btn {
   @extend %btn;
   @extend %btn-min;
   @include padding(10px, 32px, 10px, 32px);

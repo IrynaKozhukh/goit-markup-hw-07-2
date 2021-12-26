@@ -1,24 +1,23 @@
 .about {
   padding-top: 0;
 }
-.about-title {
-    margin: 0 0 50px 0;
+.about__title {
+    @include margin(0, 0, 50px, 0);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
+    @extend %align-spacing;
     color: var(--second-title-color);
 }
-.about-list,
-.about-item {
+.about__list,
+.about__item {
     @extend %align-list;
     text-align: left;
 }
-.about-list > .about-item:not(:last-child) {
+.about__list > .about__item:not(:last-child) {
     margin-right: 30px;
 }
-.about-item-text {
+.about__item-text {
     @extend %align-list;
     justify-content: center;
     width: 100%;
