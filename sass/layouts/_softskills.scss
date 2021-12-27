@@ -1,6 +1,6 @@
 .softskills__title-text {
   width: 696px;
-  @include margin(0, auto, 30px);
+  @include margin(0, auto, 30px, auto);
   @include padding(0, 0, 0, 0);
   color: var(--hero-color);
   font-weight: 900;

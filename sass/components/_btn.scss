@@ -39,8 +39,8 @@
     font-style: inherit;
     font-size: 16px;
     line-height: 1.62;
-    @extend align-spacing;
-    @extend align-list;
+    @extend %align-spacing;
+    @extend %align-list;
     border: none;
     padding-right: 22px;
     padding-left: 22px;
