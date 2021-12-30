@@ -325,11 +325,16 @@ body {
   background-color: var(--galery-color);
 }
 
+.galery__card-body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .galery__list {
   text-align: left;
 }
 
-.galery__list > .galery-item:not(:last-child) {
+.galery__list > .galery__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -644,6 +649,7 @@ body {
 
 .team__social-list {
   display: flex;
+  justify-content: center;
 }
 
 .team__social-icon {

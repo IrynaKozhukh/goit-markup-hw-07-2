@@ -1,10 +1,14 @@
 .galery {
   background-color: var(--galery-color);
 }
+.galery__card-body{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .galery__list {
   @extend %align-list;
   text-align: left;
-  & > .galery-item:not(:last-child) {
+  & > .galery__item:not(:last-child) {
     margin-right: 30px;
   }
 }
