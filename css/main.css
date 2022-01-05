@@ -254,22 +254,6 @@ body {
   width: 270px;
 }
 
-.items {
-  text-align: center;
-}
-
-.items > .header-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.items > .portfolio-item:not(:nth-child(3n)) {
-  margin-right: 30px;
-}
-
-.items > .portfolio-item:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 30px;
-}
-
 .softskills__link {
   justify-content: center;
   width: 270px;
@@ -547,8 +531,28 @@ body {
   background-color: var(--hero-color);
 }
 
+.items {
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+}
+
+.items > .header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.items > .portfolio-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.items > .portfolio-item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+
 .portfolio__item {
   background-color: var(--hero-color);
+  margin-right: 30px;
 }
 
 .header-list > .portfolio__item:not(:nth-last-child(-n + 3)) {
@@ -661,7 +665,7 @@ body {
 }
 
 .container {
-  width: 1600px;
+  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
