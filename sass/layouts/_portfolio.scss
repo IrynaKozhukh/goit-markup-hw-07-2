@@ -7,7 +7,7 @@
         margin-bottom: 30px;
     }
 }
-.cadr-overflow {
+.portfolio__cadr-overflow {
     position: relative;
     overflow: hidden;
 }
@@ -31,7 +31,7 @@
         transform: translateY(0);
         }
 }
-.card-body {
+.portfolio__card-body {
     padding-top: 30px;
     padding-bottom: 32px;
     .portfolio__card & {
