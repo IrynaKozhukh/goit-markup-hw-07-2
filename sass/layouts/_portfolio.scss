@@ -26,6 +26,7 @@
     justify-content: center;
     margin-bottom: 50px;
 }
+
 .portfolio__item {
     background-color: var(--hero-color);
     .header__list > &:not(:nth-last-child(-n + 3)) {
@@ -37,25 +38,26 @@
     overflow: hidden;
 }
 .portfolio__card-text {
-    position: absolute;
-    font-style: normal;
-    font-weight: normal;
-    top: 0;
-    left: 0;
-    font-size: 18px;
-    line-height: 1.56;
-    letter-spacing: 0.03em;
-    @include padding(63px, 24px, 63px, 24px);
-    text-align: left;
-    background-color: rgba(33, 150, 243, 0.9);;
-    color: var(--third-text-color);
-    transform: translateY(100%);
-    transition: transform var(--duration);
-    overflow: auto;
-    .portfolio-item:hover & {
-        transform: translateY(0);
-        }
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  padding: 63px 24px;
+  text-align: left;
+  background-color: rgba(33, 150, 243, 0.9);;
+  color: var(--third-text-color);
+  transform: translateY(100%);
+  transition: transform var(--duration);
+  overflow: auto;
 }
+.portfolio__item:hover .portfolio__card-text {
+  transform: translateY(0);
+}
+
 .portfolio__card-body {
     padding-top: 30px;
     padding-bottom: 32px;

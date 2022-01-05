@@ -24,7 +24,7 @@
 .button {
   @extend %btn-min;
   letter-spacing: 0.03em;
-  min-height: 38px;
+  min-height: 50px;
   @include padding(6px, 22px, 6px, 22px);
   font-style: inherit;
   font-weight: 500;
