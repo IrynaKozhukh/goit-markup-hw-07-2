@@ -555,7 +555,7 @@ body {
   margin-bottom: 30px;
 }
 
-.cadr-overflow {
+.portfolio__cadr-overflow {
   position: relative;
   overflow: hidden;
 }
@@ -585,12 +585,12 @@ body {
   transform: translateY(0);
 }
 
-.card-body {
+.portfolio__card-body {
   padding-top: 30px;
   padding-bottom: 32px;
 }
 
-.portfolio__card .card-body {
+.portfolio__card .portfolio__card-body {
   border: 1px solid #eeeeee;
   border-top: 1px solid transparent;
   padding-top: 20px;
@@ -601,7 +601,7 @@ body {
   transition: box-shadow var(--duration) linear;
 }
 
-.portfolio__card .card-body:hover {
+.portfolio__card .portfolio__card-body:hover {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -668,9 +668,6 @@ body {
 
 .container .header__navigation {
   min-height: 80px;
-}
-
-.container .header__navigation > .container .header__navigation {
   margin-right: auto;
 }
 

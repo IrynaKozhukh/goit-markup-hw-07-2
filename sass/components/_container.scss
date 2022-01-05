@@ -4,9 +4,7 @@
   margin: 0 auto;
   .header__navigation {
     min-height: 80px;
-    & > & {
-      margin-right: auto;
-    }
+    margin-right: auto;
   }
   & > .hero__btn {
     margin: inherit;
