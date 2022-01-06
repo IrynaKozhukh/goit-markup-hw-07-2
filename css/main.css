@@ -277,6 +277,7 @@ body {
 .about__list,
 .about__item {
   text-align: left;
+  position: relative;
 }
 
 .about__list > .about__item:not(:last-child) {

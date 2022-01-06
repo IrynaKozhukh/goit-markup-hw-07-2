@@ -11,6 +11,7 @@
 .about__item {
     @extend %align-list;
     text-align: left;
+    position: relative;
 }
 .about__list > .about__item:not(:last-child) {
     margin-right: 30px;
