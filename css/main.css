@@ -192,6 +192,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  min-height: 600px;
+  max-width: 1600px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero__title {
